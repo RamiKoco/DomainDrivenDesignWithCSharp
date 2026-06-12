@@ -50,26 +50,26 @@ Yeni başlıyorsan buradan başla:
 
 ## Konular
 
-Aşağıdaki başlıklar ayrı dokümanlar olarak ele alınır (yazıldıkça linklenir).
+Aşağıdaki başlıklar ayrı dokümanlar olarak ele alınır. Linkli olanların makalesi hazırdır; linksiz olanlar yazıldıkça eklenecektir.
 
 ### 🧭 Stratejik Tasarım
 
 | Konu | Açıklama |
 | ---- | -------- |
 | Ubiquitous Language | Geliştirici ve iş uzmanının aynı dili konuşması; kodun iş dilini birebir yansıtması. |
-| Bounded Context | Bir modelin tutarlı olduğu sınır; aynı kelimenin farklı bağlamda farklı anlama gelmesi. |
+| [Bounded Context](./BoundedContext) | Bir modelin tutarlı olduğu sınır; aynı kelimenin farklı bağlamda farklı anlama gelmesi. |
 | Context Map | Bounded context'lerin birbiriyle ilişkisini gösteren harita. |
 
 ### 🧱 Taktiksel Tasarım (Yapı Taşları)
 
 | Konu | Açıklama |
 | ---- | -------- |
-| Entity | Kimliği (Id) olan, eşitliği kimlikle belirlenen nesne. |
-| Value Object | Kimliği olmayan, değeriyle eşit ve değişmez (immutable) nesne. |
-| Aggregate (+ Root) | Bütün olarak ele alınan nesne kümesi; root tek giriş kapısı, kuralları korur. |
-| Repository | Aggregate'leri saklayıp geri getiren soyutlama. |
+| [Entity](./Entity) | Kimliği (Id) olan, eşitliği kimlikle belirlenen nesne. |
+| [Value Object](./ValueObject) | Kimliği olmayan, değeriyle eşit ve değişmez (immutable) nesne. |
+| [Aggregate (+ Root)](./Aggregate) | Bütün olarak ele alınan nesne kümesi; root tek giriş kapısı, kuralları korur. |
+| [Repository](./Repository) | Aggregate'leri saklayıp geri getiren soyutlama. |
 | Domain Service | Tek bir entity'ye ait olmayan iş mantığı. |
-| Domain Event | Domain'de önemli bir şeyin olduğunu bildiren olay. |
+| [Domain Event](./DomainEvent) | Domain'de önemli bir şeyin olduğunu bildiren olay. |
 | Factory | Karmaşık nesne oluşturma sorumluluğu. |
 
 ---
